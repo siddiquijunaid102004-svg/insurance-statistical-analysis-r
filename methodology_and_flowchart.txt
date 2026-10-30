@@ -1,0 +1,33 @@
+METHODOLOGY
+1. Identify the public insurance dataset and define charges as the continuous target.
+2. Load the CSV in R and inspect structure, types, missing values and duplicates.
+3. Clean category strings and convert categorical predictors to factors.
+4. Perform descriptive statistics and exploratory visualizations.
+5. Test the difference in mean charges by smoker status using Welch's t-test.
+6. Calculate Pearson correlations for numeric variables.
+7. Split records into training and testing sets.
+8. Fit multiple linear regression on the training data.
+9. Evaluate using MAE, RMSE and R-squared; run five-fold cross-validation.
+10. Inspect residual and regression diagnostic plots.
+11. Document findings, limitations and future improvements.
+
+FLOWCHART
+Dataset selection
+      |
+Load CSV and inspect data
+      |
+Clean values and check missingness/duplicates
+      |
+Descriptive statistics and EDA
+      |
+Hypothesis testing + correlation analysis
+      |
+Train/test split
+      |
+Multiple linear regression
+      |
+Cross-validation and evaluation metrics
+      |
+Residual diagnostics
+      |
+Interpretation, limitations and final report
